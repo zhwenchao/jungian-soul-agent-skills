@@ -31,12 +31,12 @@ def main():
     # Six skills
     print("🧩 Six Skills / 六步技能:")
     skills = [
-        "01_conscious_clone.md",
-        "02_subconscious_clone.md",
-        "03_jungian_archetype.md",
-        "04_self_talk_heal.md",
+        "01-consciousness-replication.md",
+        "02-subconscious-excavation.md",
+        "03-archetype-switching.md",
+        "04-mirror-dialogue.md",
         "05_spirit_memory.md",
-        "06_persona_iterate.md",
+        "06-persona-iteration.md",
     ]
     for s in skills:
         check(f"skills/{s}", f"skills/{s}")
