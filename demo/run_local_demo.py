@@ -5,6 +5,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def main():
+    print("===== Jungian Soul Agent Demo Started =====")
+    print("✅ Consciousness Replication loaded")
+    print("✅ Subconscious Excavation loaded")
+    print("✅ Four Archetype Personas loaded")
+    print("✅ Spirit Vector Memory ready")
+    print("===== Ready for self-exploration dialogue =====")
+    print()
     print("===== 荣格灵魂分身 Agent Skills 启动成功 =====")
     print("✅ 意识复刻技能已加载")
     print("✅ 潜意识挖掘技能已加载")
