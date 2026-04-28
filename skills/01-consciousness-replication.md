@@ -1,4 +1,4 @@
-# Skill 01 Conscious Clone / 表层意识复刻
+# Skill 01: Consciousness Replication / 表层意识复刻
 
 Ability: Replicate user's surface-level thinking, expression habits, decision logic, and external personality
 Input: Text corpus + basic assessment

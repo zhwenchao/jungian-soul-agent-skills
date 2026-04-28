@@ -397,20 +397,16 @@ psychological-digital-twin/
 ├── templates/
 │   ├── en-US/
 │   └── zh-CN/
-├── docs/
-│   ├── METHODOLOGY.md
-│   └── README.md
-├── config/
-│   ├── archetype_config.json
-│   └── persona_config.json
 ├── prompts/
 │   ├── persona.md
 │   ├── shadow.md
 │   ├── self.md
 │   ├── anima-animus.md
 │   ├── base.md
+│   ├── jungian_assessment.md
 │   ├── self_dialogue_rule.md
-│   └── jungian_assessment.md
+│   ├── subconscious_recall.md
+│   └── text_style_extract.md
 ├── flowchart/
 ├── demo/
 └── requirements.txt

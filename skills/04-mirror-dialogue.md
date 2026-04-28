@@ -1,4 +1,4 @@
-# Skill 04 Self Mirror Dialogue Healing / 自我镜像对话疗愈
+# Skill 04: Mirror Dialogue / 自我镜像对话疗愈
 
 Core: Dialogue between the self and its own soul
 Rejects AI preaching, third-party perspectives, and motivational platitudes — pure inner mirror reflection

@@ -6,7 +6,7 @@ Feature: Background sedimentation, gradually approaching the inner self that eve
 
 ---
 
-# Skill 02 潜意识复刻挖掘
+# Skill 02: Subconscious Excavation / 潜意识复刻挖掘
 
 能力：静默捕捉情绪触发点、内心回避、隐性情结、行为下意识惯性
 

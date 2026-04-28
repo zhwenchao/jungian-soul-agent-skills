@@ -142,14 +142,16 @@ psychological-digital-twin/
 │   ├── consciousness.md      #   Conscious ego characteristics
 │   └── subconscious.md       #   Unconscious patterns & complexes
 │
-├── prompts/                  # 🎭 7 Jungian archetype prompts
+├── prompts/                  # 🎭 9 Jungian archetype & system prompts
 │   ├── persona.md            #   Persona (social mask)
 │   ├── shadow.md             #   Shadow (repressed self)
 │   ├── self.md               #   Self (integrated whole)
 │   ├── anima-animus.md       #   Anima/Animus (inner opposite)
 │   ├── base.md               #   System prompt (always-on)
+│   ├── jungian_assessment.md #   Structured assessment template
 │   ├── self_dialogue_rule.md #   Mirror dialogue constraints
-│   └── jungian_assessment.md #   Structured assessment template
+│   ├── subconscious_recall.md#   Background subconscious analysis
+│   └── text_style_extract.md #   Psycho-stylistic feature extraction
 │
 ├── templates/                 # 📄 Bilingual conversation templates
 │   ├── en-US/                #   English templates
@@ -157,11 +159,9 @@ psychological-digital-twin/
 │
 ├── config/                   # ⚙️ Archetype & persona JSON configs
 │
-├── docs/                     # 📚 Supplementary documentation
-│
 ├── flowchart/                # 🔄 Mermaid process diagrams
 │
-├── demo/                     # 🎬 Python demo
+├── demo/                     # 🎬 Python demo (placeholder)
 │
 └── requirements.txt          # 🐍 Python dependencies (optional)
 ```
