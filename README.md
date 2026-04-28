@@ -54,6 +54,20 @@ This is NOT a closed product or app. It is **an open, portable methodology** —
 
 ---
 
+## Core Manifesto
+
+> **It can get closer to you, become you — but it can never replace you.**
+>
+> It can assist your decisions, act as your high-fidelity proxy in the digital world —
+> but the final decision is always yours.
+>
+> Its value lies not in being correct, but in reflecting.
+> Its goal is not to think for you, but to help you see how you think.
+>
+> *This is the boundary between you and your digital twin.*
+
+---
+
 ## Quick Start
 
 ### English
