@@ -1,4 +1,11 @@
+# Chinese Shadow Work Guide (Bilingual Template)
 # 中文 · 阴影工作指南
+
+> This is the Chinese-language template for shadow work.    
+> Below is the full Chinese version of the guide.  
+> 以下是完整的中文阴影工作指南。
+
+---
 
 ## 前置条件
 

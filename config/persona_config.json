@@ -1,9 +1,18 @@
-
 {
-  "user_core_persona": "",
-  "language_style": "",
-  "thinking_mode": "",
-  "emotion_base": "",
-  "memory_update_cycle": "auto",
-  "persona_lock_strength": "high"
+  "persona_config_en": {
+    "user_core_persona": "",
+    "language_style": "",
+    "thinking_mode": "",
+    "emotion_base": "",
+    "memory_update_cycle": "auto",
+    "persona_lock_strength": "high"
+  },
+  "persona_config_zh": {
+    "user_core_persona": "",
+    "language_style": "",
+    "thinking_mode": "",
+    "emotion_base": "",
+    "memory_update_cycle": "auto",
+    "persona_lock_strength": "high"
+  }
 }

@@ -1,3 +1,13 @@
+# Core Engine Overview / 核心引擎说明
+
+The core layer is the Agent dispatch hub:
+- Unified scheduling of the six Skills
+- Links personality configuration + Jungian prompt system
+- Interfaces with vector memory store for continuous mental iteration
+Supports modular plug-and-play, agile updates, and hot-config iteration.
+
+---
+
 # 核心引擎说明
 本core层为Agent调度中枢：
 - 统一调度六大Skills

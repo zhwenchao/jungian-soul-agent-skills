@@ -1,4 +1,11 @@
+# Chinese Culture Adaptation Guide (Bilingual Template)
 # 中文圈文化适配指南
+
+> This is the Chinese-language template for cultural adaptation.    
+> Below is the full Chinese version of the adaptation guide.  
+> 以下是完整的中文文化适配指南。
+
+---
 
 ## 适用地区
 

@@ -1,4 +1,11 @@
+# Chinese Consciousness Replication Questions (Bilingual Template)
 # 中文 · 表层意识标准问题组
+
+> This is the Chinese-language template for consciousness replication questions.    
+> Below is the full Chinese version.  
+> 以下是完整的中文表层意识标准问题模板。
+
+---
 
 ## 快速建模（10分钟 · 3个核心问题）
 
