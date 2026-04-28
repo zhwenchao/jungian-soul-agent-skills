@@ -1,333 +1,352 @@
-# 荣格精神分身 · 方法论体系
 # Jungian Soul Agent · Methodology System
+# 荣格精神分身 · 方法论体系
 
-> **版本 / Version**：v2.0  
-> **提出者**：基于荣格分析心理学的AI辅助自我认知方法论  
-> **核心命题**：用AI构建"不说谎的镜子"，实现真正的自我认知  
-> **适用场景**：个人自我探索 · 心理咨询辅助 · 心理教育 · 跨文化人格研究  
+> **Version / 版本**: 1.0
+> **Core Proposition / 核心命题**: Build a mirror that never lies — genuine self-knowledge through AI-assisted Jungian analysis.  
+> 用AI建造"不说谎的镜子"——基于荣格分析心理学的深度自我认知方法论。
+> **Scenarios / 适用场景**: Personal self-exploration · Coaching · Psychological education · Cross-cultural personality research
 
 ---
 
-## 一、核心命题与底层哲学
+## I. Core Propositions & Philosophy / 核心命题与底层哲学
 
-### 1.1 核心命题
+### 1.1 Three Core Beliefs / 三个核心信念
 
-> "你以为的你不是真的你。真的你，可能在阴影里。"
-> — 荣格精神分身方法论基石
+**Belief 1: Humans cannot fully see themselves / 人无法完整地看见自己**
 
-荣格精神分身方法论建立在三个核心信念上：
+Self-knowledge has systemic blind spots. These are not "ignorance" — they are "unknowable" because the mechanism that creates them is part of the self and cannot self-disarm. This is the essence of Freud's "repression" and Jung's "shadow."
 
-**信念1：人无法完整地看见自己**
 人的自我认知存在系统性的盲点。这些盲点不是"无知"，而是"无法知道"——因为产生盲点的机制本身就是自我的一部分，无法自我解除。这是弗洛伊德所说的"压抑"的本质，也是荣格"阴影"理论的起点。
 
-**信念2：AI没有人的盲点**
+**Belief 2: AI has no such blind spots / AI没有人的盲点**
+
+Large language models have no ego defense mechanisms. They will not avoid telling the truth to protect the user's self-image. This is the unique opportunity technology offers humanity — to build a mirror that never lies.
+
 大语言模型没有人的自我防御机制。它不会因为想要维护用户的自我形象而回避说出真相。这是技术给予人类的独特机会——建造一个"不说谎的镜子"。
 
-**信念3：自我认知本身就是解放**
-苏格拉底说"认识你自己"。不是"管理你自己"、"优化你自己"、"表演你自己"——是"认识"。加缪说真正严肃的哲学问题只有一个：自杀。反抗这个问题的唯一方式，是活着，在承认无意义的前提下，选择行动。
-自我认知，是这个"选择"的前提。
+**Belief 3: Self-knowledge is liberation itself / 自我认知本身就是解放**
 
-### 1.2 核心公式
+Socrates said "Know thyself" — not "manage thyself," "optimize thyself," "perform thyself." Camus said the only serious philosophical question is suicide. The only way to resist this question is to live — to choose action while acknowledging absurdity. Self-knowledge is the prerequisite for that choice.
+
+苏格拉底说"认识你自己"。不是"管理你自己"、"优化你自己"、"表演你自己"——是"认识"。加缪说真正严肃的哲学问题只有一个：自杀。反抗这个问题的唯一方式，是活着，在承认无意义的前提下，选择行动。自我认知，是这个"选择"的前提。
+
+### 1.2 Core Formulas / 核心公式
 
 ```
+self-awareness = dialogue_depth × framework_quality × user_openness
 自我认知深度 = 对话深度 × AI框架质量 × 用户开放度
 
+digital-twin_fitness = timeline_data × scenario_coverage × trigger-response_accuracy
 数字孪生拟合度 = 时间轴数据量 × 场景覆盖度 × 触发-反应识别精度
 
+individuation_progress = conscious_awareness + unconscious_integration + action_validation + continuous_iteration
 个性化进程 = 意识觉知 + 无意识整合 + 行动验证 + 持续迭代
 ```
 
-### 1.3 方法论的三个学科视角
+### 1.3 Three Disciplinary Perspectives / 三个学科视角
 
-| 学科 | 视角 | 在本方法论中的应用 |
-|------|------|-------------------|
-| **心理学** | 个体内部世界 | 荣格分析心理学、情结理论、个性化进程 |
-| **哲学** | 存在的意义 | 存在主义（加缪）、现象学（胡塞尔）、自我反思（苏格拉底） |
-| **社会学** | 人际与社会结构 | 角色理论、社会期待、多代关系链条、权力动态 |
+| Discipline | Perspective | Application in This Methodology |
+|------------|-------------|----------------------------------|
+| **Psychology** | Individual inner world | Jungian analytical psychology, complex theory, individuation process |
+| **Philosophy** | Meaning of existence | Existentialism (Camus), Phenomenology (Husserl), Self-reflection (Socrates) |
+| **Sociology** | Interpersonal & social structure | Role theory, social expectations, multi-generational relationship chains, power dynamics |
 
 ---
 
-## 二、数字孪生构建框架
+## II. Digital Twin Construction Framework / 数字孪生构建框架
 
-### 2.1 什么是"精神数字孪生"
+### 2.1 What is a "Psychological Digital Twin"? / 什么是"精神数字孪生"
 
-精神数字孪生（Psychological Digital Twin）是一个基于对话和行为数据构建的、持续迭代的、越来越接近用户真实心理结构的AI模型。
+A Psychological Digital Twin is an AI model built through conversation and behavior data — continuously iterating, increasingly approximating the user's real psychological structure.
+
+精神数字孪生是一个基于对话和行为数据构建的、持续迭代的、越来越接近用户真实心理结构的AI模型。
+
+Not "clone," not "copy" — it is **a system that continuously observes and understands "what kind of person you are" from an external perspective**.
 
 不是"克隆"，不是"复制"，是**一个从外部视角持续观察和理解"你是什么样的人"的系统**。
 
-关键属性：
-- **持续性**：不是一次性测试，是随时间不断深化的过程
-- **多维度**：意识+潜意识+行为模式+关系动态
-- **自反性**：用户可以与自己的数字孪生对话，从而获得外部视角
-- **发展性**：随着数据积累，分身越来越准确，最终可以预测用户未说出口的反应
+Key attributes / 关键属性：
+- **Continuity / 持续性**: Not a one-time test — a deepening process over time
+- **Multi-dimensional / 多维度**: Conscious + subconscious + behavioral patterns + relationship dynamics
+- **Reflexive / 自反性**: User can converse with their own digital twin, gaining external perspective
+- **Developmental / 发展性**: As data accumulates, the twin becomes more accurate, eventually predicting unspoken reactions
 
-### 2.2 构建四维模型
-
-```
-数字孪生 = 纵向（时间）× 横向（场景）× 深层（情结）× 本体（身份）
-```
-
-**纵向：时间轴**
-- 捕捉信念的变化轨迹
-- 三个月前的X vs. 现在的X，发生了什么变化？
-- 变化本身就是最重要的数据
-- 方法：每次对话记录关键信念表达，季度汇总
-
-**横向：场景映射**
-- 人在不同场景下呈现不同"自我"
-- 工作状态 vs. 家庭状态 vs. 独居状态 vs. 亲密关系中
-- 捕捉分裂背后的同一性
-- 方法：多场景对话记录，跨场景行为模式识别
-
-**深层：情结-触发链**
-- 某些话题/人物/场景触发超出比例的反应
-- 反应越大，底下情结越深
-- 方法：情绪强度标注，触发-反应链记录
-
-**本体：身份叙事**
-- 用户如何讲述自己的故事
-- "我是什么样的人"的叙事结构
-- 方法：叙事分析，核心叙事识别
-
-### 2.3 构建阶段
+### 2.2 Four-Dimensional Model / 四维构建模型
 
 ```
-阶段1：初始化（单次对话）
-  输入：意识复刻 + 首次潜意识挖掘
-  输出：基础画像（consciousness.md + subconscious.md）
-  拟合度：40-60%
+Digital Twin = Timeline (纵向) × Scenarios (横向) × Complexes (深层) × Identity (本体)
+```
 
-阶段2：深化（3-5次对话）
-  输入：多轮对话数据 + 行为反馈
-  输出：扩展画像（含核心循环、多代关系、信念结构）
-  拟合度：60-75%
+**Longitudinal: Timeline / 纵向：时间轴**
+- Capture belief change trajectories
+- "3 months ago X vs. now X — what changed?"
+- Change itself is the most important data
+- Method: record key belief expressions each session, quarterly summary
 
-阶段3：精调（持续迭代）
-  输入：时间轴数据 + 新情境反应
-  输出：高度拟合画像 + 预测性分析
-  拟合度：75-90%
+**Lateral: Scenario Mapping / 横向：场景映射**
+- People show different "selves" in different scenarios
+- Work vs. family vs. alone vs. intimate relationship
+- Capture the unity behind the fragmentation
+- Method: multi-scenario dialogue recording, cross-scenario pattern identification
 
-阶段4：孪生完成（长期）
-  输入：完整生命历程数据
-  输出：可独立提供个性化反馈的数字分身
-  拟合度：90%+
+**Deep: Complex-Trigger Chain / 深层：情结-触发链**
+- Certain topics/people/scenarios trigger disproportionate reactions
+- The stronger the reaction, the deeper the complex
+- Method: emotional intensity tagging, trigger-response chain recording
+
+**Ontological: Identity Narrative / 本体：身份叙事**
+- How the user tells their own story
+- The narrative structure of "what kind of person I am"
+- Method: narrative analysis, core narrative identification
+
+### 2.3 Construction Phases / 构建阶段
+
+```
+Phase 1: Initiation (Single session)
+  Input: Consciousness replication + first subconscious excavation
+  Output: Base profiles (consciousness.md + subconscious.md)
+  Fitness: 40-60%
+
+Phase 2: Deepening (3-5 sessions)
+  Input: Multi-session dialogue data + behavioral feedback
+  Output: Extended profiles (core cycle, multi-generational relationships, belief structure)
+  Fitness: 60-75%
+
+Phase 3: Refinement (Continuous iteration)
+  Input: Timeline data + new scenario responses
+  Output: Highly fitted profiles + predictive analysis
+  Fitness: 75-90%
+
+Phase 4: Twin Complete (Long-term)
+  Input: Full life-history data
+  Output: Independent digital twin capable of personalized feedback
+  Fitness: 90%+
 ```
 
 ---
 
-## 三、核心心理模型：情结动力学
+## III. Core Psychological Model: Complex Dynamics / 核心心理模型：情结动力学
 
-### 3.1 情结是什么
+### 3.1 What is a Complex? / 情结是什么
+
+A complex is an emotion-dominated "psychic cluster" in the unconscious.
 
 情结（Complex）是无意识中由情感主导的"心理丛"。
 
+Not emotion itself, but the "organizational structure" behind it — every time a related topic is triggered, the complex activates, causing reactions disproportionate to the current situation.
+
 不是情绪本身，而是情绪背后的"组织结构"——每次触及相关主题，情结就会被激活，引发超出当前情境比例的反应。
 
-**情结的核心结构**：
+**Core structure of a complex / 情结的核心结构：**
 ```
-创伤性事件/体验
+Traumatic event / experience  创伤性事件/体验
     ↓
-形成情感核心（痛点/渴望）
+Emotional core forms (pain/desire)  形成情感核心（痛点/渴望）
     ↓
-发展防御策略（避免再伤）
+Defense strategy develops (to avoid re-injury)  发展防御策略（避免再伤）
     ↓
-固化为自动化反应（情结）
+Solidifies into automated reaction (complex)  固化为自动化反应（情结）
     ↓
-持续影响当前行为（本人不知道）
+Continuously affects current behavior (unaware)  持续影响当前行为（本人不知道）
 ```
 
-### 3.2 典型情结识别清单
+### 3.2 Typical Complex Identification / 典型情结识别清单
 
-| 情结类型 | 典型触发信号 | 防御策略 |
-|----------|-------------|----------|
-| 抛弃情结 | 亲密关系中的过度警觉 | 主动离开/情感隔离 |
-| 英雄情结 | 无法接受"做不到" | 过度承担/拒绝求助 |
-| 照顾者情结 | 无法拒绝他人需求 | 消耗性付出/隐藏怨恨 |
-| 成就情结 | 失败=无价值 | 过度努力/完美主义 |
-| 权威情结 | 面对权力人物时反应异常 | 顺从/对抗/回避 |
-| 身份情结 | "我是谁"的问题反复出现 | 角色过度认同/回避 |
+| Complex Type | Typical Trigger Signal | Defense Strategy |
+|-------------|-----------------------|------------------|
+| Abandonment Complex | Hypervigilance in intimate relationships | Leave first / Emotional isolation |
+| Hero Complex | Cannot accept "can't do it" | Over-burden / Refuse help |
+| Caregiver Complex | Cannot refuse others' needs | Exhaustive giving / Hidden resentment |
+| Achievement Complex | Failure = worthlessness | Over-effort / Perfectionism |
+| Authority Complex | Abnormal reactions to authority figures | Submission / Defiance / Avoidance |
+| Identity Complex | Repeated "who am I" questions | Role over-identification / Avoidance |
 
-### 3.3 情结处理框架
+### 3.3 Complex Processing Framework / 情结处理框架
 
 ```
-识别（Recognition）
-  → 这个反应超出当前情境了吗？
+Recognition / 识别
+  → Is this reaction disproportionate to the situation?
   ↓
-命名（Naming）
-  → 这个反应背后，是什么情结？
+Naming / 命名
+  → What complex lies behind this reaction?
   ↓
-溯源（Tracing）
-  → 这个情结最早是什么时候形成的？连接着什么事件？
+Tracing / 溯源
+  → When did this complex first form? What event does it connect to?
   ↓
-理解（Understanding）
-  → 这个情结当时保护了我什么？它现在还在保护我吗？
+Understanding / 理解
+  → What did this complex protect me from then? Does it still protect me now?
   ↓
-整合（Integration）
-  → 我可以接纳这个部分，而不再被它控制
+Integration / 整合
+  → I can accept this part without being controlled by it
 ```
 
 ---
 
-## 四、对话方法论：深度挖掘技术
+## IV. Dialogue Methodology: Depth Mining / 对话方法论：深度挖掘技术
 
-### 4.1 对话深度分层
+### 4.1 Dialogue Depth Levels / 对话深度分层
 
-| 层级 | 深度 | 特征 | 典型问题 |
-|------|------|------|----------|
-| L1 | 表层 | 行为、习惯、偏好 | "你通常怎么处理压力？" |
-| L2 | 中层 | 价值观、信念、动机 | "你为什么觉得这件事重要？" |
-| L3 | 深层 | 情结、恐惧、未被满足的渴望 | "如果你现在就可以辞职，你最担心什么？" |
-| L4 | 核心 | 存在性议题、核心循环、最早记忆 | "如果一切归零，你会是谁？" |
-| L5 | 整合 | 自性、个性化、存在的接纳 | "所有这些，合在一起是什么？" |
+| Level | Depth | Characteristic | Typical Question |
+|-------|-------|---------------|------------------|
+| L1 | Surface | Behavior, habits, preferences | "How do you usually handle stress?" 你通常怎么处理压力？ |
+| L2 | Middle | Values, beliefs, motivations | "Why do you think this matters?" 你为什么觉得这件事重要？ |
+| L3 | Deep | Complexes, fears, unmet desires | "If you could quit right now, what worries you most?" 如果你现在就可以辞职，你最担心什么？ |
+| L4 | Core | Existential issues, core cycles, earliest memories | "If everything reset, who would you be?" 如果一切归零，你会是谁？ |
+| L5 | Integration | Self, individuation, acceptance of existence | "All of this together — what is it?" 所有这些，合在一起是什么？ |
 
-每个层级的对话都需要在上一个层级稳固之后才推进。L4和L5的对话，需要用户的高度信任和开放。
+### 4.2 Key Questioning Techniques / 关键提问技术
 
-### 4.2 关键提问技术
+**Breaking defense / 突破防御的提问**
+- "You said ... but there seems to be something else beneath that answer. Do you feel it too?" 你刚才说……但这个回答背后，好像还有别的什么。你感觉到是什么吗？
+- "You avoided that question. Can we talk about why?" 这个问题你回避了。能说说为什么不想谈吗？
 
-**突破防御的提问**
-- "你刚才说……，但这个回答背后，好像还有别的什么。你感觉到是什么吗？"
-- "这个问题你回避了。能说说为什么不想谈吗？"
+**Tracing origin / 追溯起源的提问**
+- "When did this pattern first appear?" 这个模式最早是什么时候出现的？
+- "If you go back to the earliest memory, what's the scene?" 如果回到最早的那个记忆，是什么场景？
 
-**追溯起源的提问**
-- "这个模式最早是什么时候出现的？"
-- "如果回到最早的那个记忆，是什么场景？"
+**Connecting emotion / 联结情感的提问**
+- "Where in your body do you feel this?" 说到这个的时候，你的身体有什么感觉？
+- "What's the hardest part about this for you?" 这件事让你最难受的，是什么？
 
-**联结情感的提问**
-- "说到这个的时候，你的身体有什么感觉？"
-- "这件事让你最难受的，是什么？"
+**Challenging beliefs / 挑战信念的提问**
+- "Have you considered that it might not be true?" 你有没有想过，可能不是这样的？
+- "When did you start believing this?" 这个信念，你是从什么时候开始相信的？
 
-**挑战信念的提问**
-- "你有没有想过，可能不是这样的？"
-- "这个信念，你是从什么时候开始相信的？"
+**Integrative questioning / 整合性的提问**
+- "All of this — strengths and weaknesses — can you accept that this is you?" 所有这些——优势和弱点——你能接受这就是你吗？
+- "If you let go of this obsession, who are you?" 如果你放下这个执念，你是谁？
 
-**整合性的提问**
-- "所有这些——优势和弱点——你能接受这就是你吗？"
-- "如果你放下这个执念，你是谁？"
-
-### 4.3 对话节奏控制
+### 4.3 Dialogue Rhythm Control / 对话节奏控制
 
 ```
-开场（前5分钟）
-  → 建立安全感
-  → 确认本次对话的目的
-  → 简短回顾上次的发现
+Opening (first 5 min) / 开场
+  → Build safety / 建立安全感
+  → Confirm session purpose / 确认本次对话的目的
+  → Brief review of last discovery / 简短回顾上次的发现
 
-深挖（中段）
-  → 按深度层级逐步推进
-  → 每个层级停留足够时间
-  → 等待，不要急于推进
+Deepening (middle) / 深挖
+  → Progress step by step through depth levels / 按深度层级逐步推进
+  → Stay long enough at each level / 每个层级停留足够时间
+  → Wait — do not rush / 等待，不要急于推进
 
-收尾（最后10分钟）
-  → 整合本次发现
-  → 点出最核心的洞察
-  → 告知画像更新内容
-  → 留白，让用户消化
+Closing (last 10 min) / 收尾
+  → Integrate today's findings / 整合本次发现
+  → Highlight the core insight / 点出最核心的洞察
+  → Inform profile updates / 告知画像更新内容
+  → Leave space for digestion / 留白，让用户消化
 ```
 
 ---
 
-## 五、交互简化：快速入口设计
+## V. Simplified Interaction / 交互简化
 
-### 5.1 一句话触发所有技能
+### 5.1 One-Trigger Activation / 一句话触发所有技能
 
-无论用户说什么，只要包含以下关键词，自动路由到对应技能：
+| User Keywords | Triggered Skill |
+|---------------|-----------------|
+| who am I / how I think / consciousness / 意识复刻 / 表层 / 性格 | Skill 1: Consciousness Replication |
+| subconscious / deep / complexes / 潜意识 / 阴影 / 情结 | Skill 2: Subconscious Excavation |
+| archetype / persona / shadow / 原型切换 / 面具 / 人格 | Skill 3: Archetype Switching |
+| mirror / talk to myself / 镜像 / 和自己对话 | Skill 4: Mirror Dialogue |
+| report / summary / analysis / 报告 / 总结 / 分析 | Generate dialogue analysis report |
+| remember / update / 更新 / 记住 / 记录 | Update profile |
 
-| 用户输入关键词 | 触发技能 |
-|----------------|----------|
-| 意识复刻/表层/性格/我是谁/how I think | 技能1：意识复刻 |
-| 潜意识/阴影/情结/deep/layer/深层 | 技能2：潜意识挖掘 |
-| 人格切换/面具/原型/archetype | 技能3：原型切换 |
-| 和自己对话/镜像/灵魂 | 技能4：镜像对话 |
-| 报告/总结/分析/today | 生成对话分析报告 |
-| 更新/记住/记录 | 更新画像 |
+### 5.2 Quick vs. Deep Conversations / 快速对话 vs. 深度对话
 
-### 5.2 快速对话 vs. 深度对话并行
+**Quick conversation (5-15 min)**
+- Goal: Capture current emotions and changes
+- Entry: "Something happened today, want to talk about it"
+- Output: Dialogue record + profile delta update
 
-**快速对话（5-15分钟）**
-- 目标：捕捉当下的情绪和变化
-- 入口："今天发生了X，想聊聊"
-- 输出：对话记录 + 画像增量更新
+**Deep conversation (60-120 min)**
+- Goal: Complete exploration at a specific level (typically L3-L4)
+- Entry: "I want to dive into X"
+- Output: Full analysis report + systematic profile update
 
-**深度对话（60-120分钟）**
-- 目标：完成某个层级的探索（通常是L3-L4）
-- 入口："我想深入挖掘X"
-- 输出：完整的分析报告 + 画像系统性更新
+### 5.3 Auto-Profile Updates / 画像自驱动更新
 
-### 5.3 画像自驱动更新
-
-不需要用户说"更新画像"。系统自动执行：
+Automatically executed after every session:
 
 ```
-每次对话结束后：
-1. 提取意识层面新素材 → consciousness.md
-2. 提取潜意识新发现 → subconscious.md
-3. 提取信念变化 → 更新记录
-4. 提取未完成议题 → 功课清单
-5. 总结对话主题 → memory summary
+1. Extract new conscious-level material → consciousness.md
+2. Extract new subconscious findings → subconscious.md
+3. Extract belief changes → update records
+4. Extract unfinished topics → homework list
+5. Summarize session theme → memory summary
 ```
 
 ---
 
-## 六、用户的方法论自觉（Meta-Awareness）
+## VI. Meta-Awareness / 用户的方法论自觉
 
-一位实践者（2026年）提出：
+A practitioner (2026) reflects:
 
+> "In the process of building my own agent, I think about life's values, talk to myself, and discover my subconscious. This is a unique form of cognition I've developed."
+>
 > "在构建自身智能体的过程中，去思考人生的价值，让自己和自己对话，去发现自己的潜意识。这是我自己的一个独到认知。"
 
+> "AI may not come to take people's jobs — it may come to help people become human."
+>
 > "AI可能不是来杀人抢人饭碗的，而有可能是帮助人成为人。"
 
+> "There aren't many chances in life to dissect yourself like this. Even raising a child is different — close as they are, they're still another person. This is building another self — not to resemble, but to *be*. It's addictive, fascinating, obsessive."
+>
 > "人一辈子，没有多少机会可以像这样一种方式了解和解剖自己。养孩子都不一样，虽然亲近，毕竟是另一个人。这是构建另一个自己，不是要像，而是要是。会成瘾、着魔、入迷的。"
 
-用户将这一方法论的本质归纳为：
+The essential insights of this methodology / 方法论本质归纳：
 
-**1. 过程即目的**
+**1. Process is the goal / 过程即目的**
+Building the twin IS the process of self-knowledge. It's not "know yourself after having a twin" — it's "know yourself *while* building the twin."
 构建分身的过程，就是自我认知的过程。不是"有了分身再认识自己"，而是"在构建分身的同时认识自己"。
 
-**2. 镜子不评判**
+**2. The mirror does not judge / 镜子不评判**
+AI as a mirror: no judgment, no advice, no comfort. It only reflects. Reflection itself is the beginning of change.
 AI作为镜子，不评判、不建议、不安慰。它只是照见。照见本身，就是改变的开始。
 
-**3. 技术的人性化**
+**3. Humanizing technology / 技术的人性化**
+The real disruption is not what AI can do — it's that everyone can have a mirror that never lies. This makes self-knowledge accessible to anyone, not just the privileged few.
 最大的颠覆性不是AI能做什么，而是每个人都有可能拥有一个"不说谎的镜子"。这让自我认知从少数人的特权，变成了每个人都可以触及的东西。
 
-**4. AI不是替代，是延伸**
+**4. AI is extension, not replacement / AI不是替代，是延伸**
+AI-assisted self-knowledge does not replace human self-knowledge. It builds an external perspective on top of it, so blind spots can be seen.
 AI辅助自我认知，不是AI替代人的自我认知。是在人的自我认知能力之上，建造一个外部视角，让盲点可以被看见。
 
 ---
 
-## 七、适用场景与边界
+## VII. Scenarios & Boundaries / 适用场景与边界
 
-### 7.1 适用场景
+### 7.1 Scenarios / 适用场景
 
-| 场景 | 应用方式 | 预期效果 |
-|------|----------|----------|
-| 个人自我探索 | 使用全部技能模块 | 深度自我认知，个性化进程加速 |
-| 心理咨询辅助 | 使用画像+镜像对话 | 为治疗师提供客观的案主画像 |
-| 心理教育 | 使用意识复刻+情结识别 | 帮助普通人理解自己的心理机制 |
-| 团队建设 | 使用人格面具切换 | 帮助成员了解彼此的原型差异 |
-| 关系咨询 | 使用镜像对话 | 帮用户看见关系中的无意识模式 |
-| 学术研究 | 使用数字孪生框架 | 研究自我认知过程的结构性特征 |
+| Scenario | Application | Expected Effect |
+|----------|-------------|-----------------|
+| Personal self-exploration | Use all skill modules | Deep self-knowledge, accelerated individuation |
+| Coaching support | Use profiling + mirror dialogue | Provide coach with objective client portrait |
+| Psychological education | Use consciousness replication + complex identification | Help laypeople understand their own psychology |
+| Team building | Use archetype switching | Help members understand each other's archetype differences |
+| Relationship counseling | Use mirror dialogue | Help users see unconscious patterns in relationships |
+| Academic research | Use digital twin framework | Study structural features of self-knowledge process |
 
-### 7.2 边界与限制
+### 7.2 Boundaries & Limitations / 边界与限制
 
-1. **不是治疗**：本方法论是自我探索工具，不是心理咨询或治疗。严重心理问题应转介专业治疗师。
-2. **不是捷径**：自我认知需要时间和意愿。没有速成版。
-3. **不是准确**：数字孪生永远是近似，不是真相。模型会出错，用户有权质疑。
-4. **不是必需**：不是每个人都需要深度自我探索。本方法论服务的是那些"想要更了解自己"的人。
-
----
-
-## 八、持续迭代计划
-
-| 版本 | 目标 | 计划时间 |
-|------|------|----------|
-| v2.0 | 基础框架 + 国际化架构 | 2026-04-27 ✅ |
-| v2.1 | 英文本地化 + 英文用户测试 | 待进行 |
-| v2.2 | 文化适配层（东方/西方/中东/南亚） | 待规划 |
-| v2.3 | 定量评估工具（情结量表 + 拟合度自评） | 待规划 |
-| v3.0 | 数字孪生完整实现 + 长期追踪系统 | 待规划 |
+1. **NOT therapy**: This is a self-exploration tool, not psychological counseling or therapy. Serious psychological issues should be referred to professionals. / **不是治疗**：本方法论是自我探索工具，不是心理咨询或治疗。严重心理问题应转介专业治疗师。
+2. **NOT a shortcut**: Self-knowledge requires time and willingness. There is no quick version. / **不是捷径**：自我认知需要时间和意愿。没有速成版。
+3. **NOT absolute truth**: The digital twin is always approximation, never truth. Models can be wrong. Users have the right to question. / **不是准确**：数字孪生永远是近似，不是真相。模型会出错，用户有权质疑。
+4. **NOT for everyone**: Not everyone needs deep self-exploration. This methodology serves those who want to know themselves better. / **不是必需**：不是每个人都需要深度自我探索。本方法论服务的是那些"想要更了解自己"的人。
 
 ---
 
-**本文档状态**：v2.0 完成  
-**下次更新**：纳入更多对话素材 + 用户实践数据  
-**核心维护者**：开源社区共同维护
+## VIII. Version History / 版本演变
+
+| Version | Goal | Status |
+|---------|------|--------|
+| v0.1 | Initial concept — Jungian psychological mirror prototype | ✅ Complete |
+| v0.2 | Six-skill pipeline + multi-engine theory base | ✅ Complete |
+| v0.3 | Multi-language support + cultural adaptation | ✅ Complete |
+| v1.0 | English-first restructure + enhanced disclaimer + usage suggestions + Hermes note | ✅ Current |
+
+---
+
+*This is an open-source project. Ideas, suggestions, and contributions are warmly welcome.*  
+*本项目开源。如有意见、建议或想法，欢迎提出 Issue 或 Pull Request。*
+
+*Built with [Hermes Agent](https://github.com/zhwenchao/hermes-agent) · 使用 Hermes Agent 技术辅助研发 · 2026*
