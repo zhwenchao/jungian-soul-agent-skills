@@ -71,9 +71,9 @@ If you are experiencing serious emotional distress or a mental health crisis, pl
 
 **Technical Note / 技术说明:**
 
-This skill was developed with assistance from [Hermes Agent](https://github.com/zhwenchao/hermes-agent) — an open-source AI agent framework. The methodology and architecture were iteratively refined through real-world use over several months (versions 0.1 → 0.3 → 1.0).
+This skill was developed with assistance from [Hermes Agent](https://github.com/zhwenchao/hermes-agent) and [OpenClaw Agent](https://github.com/zhwenchao/hermes-agent) — open-source AI agent frameworks. The methodology and architecture were iteratively refined through real-world exploration over several months (versions 0.1 → 0.3 → 1.0).
 
-本技能使用 [Hermes Agent](https://github.com/zhwenchao/hermes-agent) 技术辅助研发。方法论和架构经历了数月真实使用迭代（版本 0.1 → 0.3 → 1.0）。
+本技能使用 [Hermes Agent](https://github.com/zhwenchao/hermes-agent) 和 [OpenClaw Agent](https://github.com/zhwenchao/hermes-agent) 技术辅助研发。方法论和架构经历了数月真实使用迭代（版本 0.1 → 0.3 → 1.0）。
 
 **Usage Suggestions / 使用建议:**
 
@@ -482,4 +482,4 @@ psychological-digital-twin/
 *This is an open-source project. Ideas, suggestions, and contributions are warmly welcome — open an issue or PR on GitHub.*  
 *本项目开源。如有意见、建议或想法，欢迎提出 Issue 或 Pull Request。*
 
-*Built with [Hermes Agent](https://github.com/zhwenchao/hermes-agent) · 使用 Hermes Agent 技术辅助研发 · 2026*
+*Built with [Hermes Agent](https://github.com/zhwenchao/hermes-agent) and [OpenClaw Agent](https://github.com/zhwenchao/hermes-agent) · 使用 Hermes Agent 和 OpenClaw Agent 技术辅助研发 · 2026*

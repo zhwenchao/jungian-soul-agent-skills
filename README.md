@@ -110,9 +110,9 @@ This skill pack is a **self-exploration tool**, not a medical, therapeutic, or d
 
 **Technical Note / 技术说明:**
 
-This skill was developed with assistance from [Hermes Agent](https://github.com/zhwenchao/hermes-agent) — an open-source AI agent framework. The methodology and architecture were iteratively refined through real-world use over several months (versions 0.1 → 0.3 → 1.0).
+This skill was developed with assistance from [Hermes Agent](https://github.com/zhwenchao/hermes-agent) and [OpenClaw Agent](https://github.com/zhwenchao/hermes-agent) — open-source AI agent frameworks. The methodology and architecture were iteratively refined through real-world exploration over several months (versions 0.1 → 0.3 → 1.0).
 
-本技能使用 [Hermes Agent](https://github.com/zhwenchao/hermes-agent) 技术辅助研发。方法论和架构经历了数月真实使用迭代（版本 0.1 → 0.3 → 1.0）。
+本技能使用 [Hermes Agent](https://github.com/zhwenchao/hermes-agent) 和 [OpenClaw Agent](https://github.com/zhwenchao/hermes-agent) 技术辅助研发。方法论和架构经历了数月真实使用迭代（版本 0.1 → 0.3 → 1.0）。
 
 **Usage Suggestions / 使用建议:**
 
@@ -239,4 +239,4 @@ This is an open-source project. If you have ideas, suggestions, or questions —
 *"Knowing yourself is the beginning of all wisdom." — Aristotle*  
 *"认识你自己"是一切智慧的起点。——亚里士多德*
 
-**Version 1.0** · Built with [Hermes Agent](https://github.com/zhwenchao/hermes-agent) · 使用 Hermes Agent 技术辅助研发 · 2026
+**Version 1.0** · Built with [Hermes Agent](https://github.com/zhwenchao/hermes-agent) and [OpenClaw Agent](https://github.com/zhwenchao/hermes-agent) · 使用 Hermes Agent 和 OpenClaw Agent 技术辅助研发 · 2026
