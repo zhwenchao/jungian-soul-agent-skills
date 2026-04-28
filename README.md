@@ -1,8 +1,8 @@
 # 🜃 Psychological Digital Twin · 精神数字分身
 
-> **Build a mirror that never lies.**  
-> *An AI agent skill pack for genuine self-knowledge, based on Jungian analytical psychology.*  
-> *用AI建造"不说谎的镜子"——基于荣格分析心理学的深度自我认知框架。*
+> **Build a mirror that never lies.**
+> *An AI skill pack that frees you from drudgery and lets you become who you are.*  
+> *用AI建造"不说谎的镜子"——基于荣格分析心理学，帮你从繁琐事务和重复劳动中解脱，让你成为你自己。*
 
 [![Version](https://img.shields.io/badge/version-4.0-blueviolet?style=flat-square)]()
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)]()
@@ -61,10 +61,10 @@ This is NOT a closed product or app. It is **an open, portable methodology** —
 > It can assist your decisions, act as your high-fidelity proxy in the digital world —
 > but the final decision is always yours.
 >
-> Its value lies not in being correct, but in reflecting.
-> Its goal is not to think for you, but to help you see how you think.
+> Its purpose is NOT for you to understand how it understands you (that's the process, not the goal). Its sole purpose:
+> **Free you from drudgery and repetitive labor. Give you more freedom. Let you become who you are.**
 >
-> *This is the boundary between you and your digital twin.*
+> *⚠️ This is NOT psychological counseling or therapy. It does not replace or impersonate any professional mental health service.*
 
 ---
 
