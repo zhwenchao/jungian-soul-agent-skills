@@ -23,36 +23,25 @@ This is NOT a closed product or app. It is **an open, portable methodology** —
 
 ### The Six Skills Pipeline / 六步技能流程
 
+```mermaid
+flowchart LR
+    Input[Your Chat / Text] --> S1["Step 1<br/>Consciousness Replication<br/>意识复刻<br/>10-30min"]
+    S1 --> S2["Step 2<br/>Subconscious Excavation<br/>潜意识挖掘<br/>25-40min"]
+    S2 --> S3["Step 3<br/>Archetype Switching<br/>原型切换<br/>on-demand"]
+    S3 --> S4["Step 4<br/>Mirror Dialogue<br/>镜像对话<br/>~30min"]
+    S4 --> S5["Step 5<br/>Spirit Memory<br/>记忆沉淀<br/>auto"]
+    S5 --> S6["Step 6<br/>Persona Iteration<br/>人格迭代<br/>triggered"]
+    S6 --> Profiles["Profile Updates<br/>画像更新"]
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                     Six Skills Pipeline                          │
-│                                                                  │
-│  INPUT │ Step 1   │ Step 2       │ Step 3       │ Step 4     │
-│  (chat │ Conscious │ Subconscious │ Archetype   │ Mirror      │
-│   /text)──►Replication──►Excavation──►Switching──►Dialogue─────►
-│         │ 10-30min │ 25-40min    │ on-demand   │ 30min       │
-│                                                                  │
-│         └────────────────────────────────────────────────────────┘
-│                                     │
-│                                     ▼
-│                ┌──────────────────────────┐
-│                │ Step 5           Step 6  │
-│                │ Spirit Memory ───►Persona │
-│                │ (auto)         Iteration  │
-│                │                (triggered)│
-│                └──────────────────────────┘
-│                                     │
-│                                     ▼
-│                         PROFILE UPDATES (画像更新)
-└──────────────────────────────────────────────────────────────────┘
-```
+
+> 📎 See also [`flowchart/agent_flow.mermaid`](flowchart/agent_flow.mermaid) for the full pipeline diagram.
 
 | # | Skill | Trigger | Duration | Output |
 |---|-------|---------|----------|--------|
 | 1 | **Consciousness Replication** · 意识复刻 | "who am I" / "意识复刻" | 10-30 min | Consciousness portrait |
 | 2 | **Subconscious Excavation** · 潜意识挖掘 | "subconscious" / "潜意识" | 25-40 min | Complex map + core cycle |
 | 3 | **Archetype Switching** · 原型切换 | "shadow" / "阴影" | on-demand | Multi-perspective reflection |
-| 4 | **Mirror Dialogue** · 镜像对话 | "mirror" / "和自己对话" | 30 min | Deep self-confrontation |
+| 4 | **Mirror Dialogue** · 镜像对话 | "mirror" / "和自己对话" | ~30 min | Deep self-confrontation |
 | 5 | **Spirit Memory** · 记忆沉淀 | auto (end of session) | auto | Belief + emotion delta |
 | 6 | **Persona Iteration** · 人格迭代 | "report" / "生成报告" | cumulative | Iteration report |
 
@@ -138,11 +127,13 @@ psychological-digital-twin/
 │
 ├── METHODOLOGY.md            # 📘 Philosophical & theoretical foundation
 │
-├── profiles/                 # 📋 Your personal portraits (start empty)
-│   ├── consciousness.md      #   Conscious ego characteristics
-│   └── subconscious.md       #   Unconscious patterns & complexes
+├── profiles/                 # 📋 Your personal portraits
+│   ├── example-consciousness.md  #   Reference example (replace with yours)
+│   ├── example-subconscious.md   #   Reference example (replace with yours)
+│   ├── consciousness.md      #   Your consciousness profile
+│   └── subconscious.md       #   Your subconscious profile
 │
-├── prompts/                  # 🎭 9 Jungian archetype & system prompts
+├── prompts/                  # 🎭 10 Jungian archetype & system prompts
 │   ├── persona.md            #   Persona (social mask)
 │   ├── shadow.md             #   Shadow (repressed self)
 │   ├── self.md               #   Self (integrated whole)
@@ -161,9 +152,15 @@ psychological-digital-twin/
 │
 ├── flowchart/                # 🔄 Mermaid process diagrams
 │
-├── demo/                     # 🎬 Python demo (placeholder)
+├── demo/                     # 🐍 Integrity checker
 │
-└── requirements.txt          # 🐍 Python dependencies (optional)
+├── .github/workflows/        # 🤖 CI — auto-runs integrity check on push
+│
+├── CONTRIBUTING.md           # 🤝 How to contribute (bilingual)
+│
+├── requirements.txt          # 🐍 Python dependencies (optional)
+│
+└── LICENSE                   # 📜 MIT
 ```
 
 ---
@@ -191,17 +188,17 @@ This skill pack is built on a **multi-engine theoretical framework**:
 本技能包建立在**多引擎理论框架**之上：
 
 ```
-Primary Engine ───── Jungian Analytical Psychology  荣格分析心理学（主）
-                      └── 3-layer psyche: Ego → Individual Unconscious → Collective Unconscious
-                      └── 4 archetypes: Persona · Shadow · Anima/Animus · Self
-                      └── Individuation: the lifelong process of becoming whole
+Primary Engine ────── Jungian Analytical Psychology  荣格分析心理学（主）
+                       ├── 3-layer psyche: Ego → Individual Unconscious → Collective Unconscious
+                       ├── 4 archetypes: Persona · Shadow · Anima/Animus · Self
+                       └── Individuation: the lifelong process of becoming whole
 
-Secondary Engines ── Existential Philosophy (Camus, Nietzsche)  存在主义哲学
-                      └── Meaning is created, not discovered
-                    └── Social Role Theory  社会角色理论
-                      └── Identity as enacted performance
-                    └── Eastern Philosophy (reference)  东方哲学参照
-                      └── Non-duality · Wu-wei · Beginner's mind
+Secondary Engines ──── Existential Philosophy (Camus, Nietzsche)  存在主义哲学
+                       ├── Meaning is created, not discovered
+                       ├── Social Role Theory  社会角色理论
+                       │   └── Identity as enacted performance
+                       └── Eastern Philosophy (reference)  东方哲学参照
+                           └── Non-duality · Wu-wei · Beginner's mind
 ```
 
 ### Core Formula / 核心公式
@@ -228,11 +225,13 @@ MIT 许可证——免费使用、修改、再分发。可署名但不强制。
 
 ---
 
-## Feedback / 意见与建议
+## Feedback & Contributions / 意见、建议与贡献
 
-This is an open-source project. If you have ideas, suggestions, or questions — or just want to share your experience — we warmly welcome your input. Feel free to open an issue or pull request on GitHub.
+This is an open-source project. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to report issues, suggest enhancements, or submit pull requests.
 
-本项目开源。如有任何意见、建议或问题，或只是想分享你的使用体验，欢迎通过 GitHub Issues 或 Pull Request 与我们交流。
+本项目开源。贡献方式详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+Open an [issue](https://github.com/zhwenchao/jungian-soul-agent-skills/issues) or [pull request](https://github.com/zhwenchao/jungian-soul-agent-skills/pulls) on GitHub — we warmly welcome your input.
 
 ---
 
