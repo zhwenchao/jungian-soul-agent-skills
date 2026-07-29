@@ -4,7 +4,7 @@
 > *An AI skill pack that frees you from drudgery and lets you become who you are.*  
 > *用AI建造"不说谎的镜子"——帮你从繁琐事务和重复劳动中解脱，让你成为你自己。*
 
-[![Version](https://img.shields.io/badge/version-1.0-blueviolet?style=flat-square)]()
+[![Version](https://img.shields.io/badge/version-1.0-blueviolet?style=flat-square)](https://github.com/zhwenchao/jungian-soul-agent-skills/releases/tag/v1.0)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)]()
 [![Theory](https://img.shields.io/badge/theory-Jungian_analytical_psychology-ff6b35?style=flat-square)]()
 [![Languages](https://img.shields.io/badge/lang-en--US_%7C_zh--CN-important?style=flat-square)]()
