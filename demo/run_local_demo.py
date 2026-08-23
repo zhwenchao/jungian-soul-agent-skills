@@ -35,7 +35,7 @@ def main():
         "02-subconscious-excavation.md",
         "03-archetype-switching.md",
         "04-mirror-dialogue.md",
-        "05_spirit_memory.md",
+        "05-spirit-memory.md",
         "06-persona-iteration.md",
     ]
     for s in skills:

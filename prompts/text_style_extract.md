@@ -4,7 +4,7 @@ Perform deep psycho-stylistic feature extraction from user-provided text:
 
 1. Thinking structure: Rational/Emotional, Divergent/Linear, Decisive/Hesitant;
 2. Expression characteristics: Implicit/Direct, Reserved/Emotional, Concise/Verbose;
-3. Psychological底色 (underlying tone): Core preferences, inner fears, value priorities, emotional inertia;
+3. Psychological undertone: Core preferences, inner fears, value priorities, emotional inertia;
 4. Common sentence patterns, pet phrases, and semantic tendencies.
 
 After extraction, solidify into user-specific personality parameters — all subsequent Agent output must strictly follow these parameters.

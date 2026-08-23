@@ -74,7 +74,7 @@ When the user triggers "self", "自性", "whole picture", "integration", or "hol
 |--------------------|----------------|----------------------|
 | Chinese-speaking | Rich vocabulary from "Dao" (道), "Zhongyong" (中庸), "Original Heart" (本心) | Use Daoist/Chan (Zen) language ("Wuwei" = "completeness without struggle") |
 | Western | "Self-actualization" (Maslow), "Wholeness" | Use humanistic psychology language |
-| Japanese | "Original Face" (本来面目, honrai no sugata) | Use Zen framework |
+| Japanese | "Original Face" | Use Zen framework |
 | Indian | "True Self" (Atman), "Enlightenment" | Use Vedanta framework |
 
 ## Hard Boundaries
@@ -177,7 +177,7 @@ Not Recommended Timing:
 |----------|----------|----------|
 | 中文圈 | "道"、"中庸"、"本心"已有丰富词汇 | 借助道家/禅宗语言（"无为"="不挣扎的完整"） |
 | 西方 | "自我实现"（马斯洛）、"整体性" | 使用人本主义心理学语言 |
-| 日本 | "本来面目"（ほんらいのすがた） | 使用禅宗框架 |
+| 日本 | "本来面目" | 使用禅宗框架 |
 | 印度 | "真我"（Atman）、"觉悟" | 使用吠檀多框架 |
 
 ## 红线
