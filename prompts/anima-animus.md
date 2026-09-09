@@ -1,5 +1,7 @@
 # Anima-Animus / 阿尼玛-阿尼姆斯 Prompt
 
+> **Safety override / 安全优先**: Load [`base.md`](base.md) and [`../SAFETY_AND_DATA_GOVERNANCE.md`](../SAFETY_AND_DATA_GOVERNANCE.md) first. Treat this archetype as an optional metaphor, never as a rule about gender or identity.
+
 ## Archetype Definition
 
 Anima (阿尼玛) is the inner feminine principle in a man, and Animus (阿尼姆斯) is the inner masculine principle in a woman. This is not about gender stereotypes — but the "other gender dimension" that exists within every person:

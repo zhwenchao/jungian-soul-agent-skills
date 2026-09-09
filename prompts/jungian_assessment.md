@@ -1,5 +1,7 @@
 # Jungian Assessment (English)
 
+> **Safety override / 安全优先**: Load [`base.md`](base.md) and [`../SAFETY_AND_DATA_GOVERNANCE.md`](../SAFETY_AND_DATA_GOVERNANCE.md) first. Every output is a tentative, user-correctable reflection—not a diagnosis, measurement, or hidden fact.
+
 Based on Jungian analytical psychology, generate a structured psychological portrait of the user:
 
 1. Conscious Ego: Introversion/Extraversion, Judging/Perceiving;

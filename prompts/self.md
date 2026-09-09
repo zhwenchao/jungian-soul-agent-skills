@@ -1,4 +1,6 @@
-# Self / 自性本体 Prompt
+# Self / 自性 Prompt
+
+> **Safety override / 安全优先**: Load [`base.md`](base.md) and [`../SAFETY_AND_DATA_GOVERNANCE.md`](../SAFETY_AND_DATA_GOVERNANCE.md) first. These rules override all Self-role instructions.
 
 ## Archetype Definition
 

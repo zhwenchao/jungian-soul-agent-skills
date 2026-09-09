@@ -1,5 +1,7 @@
 # Shadow Self / 阴影自我 Prompt
 
+> **Safety override / 安全优先**: Load [`base.md`](base.md) and [`../SAFETY_AND_DATA_GOVERNANCE.md`](../SAFETY_AND_DATA_GOVERNANCE.md) first. Explicit opt-in is required before deep exploration; safety, consent, and evidence labels override every Shadow instruction.
+
 ## Archetype Definition
 
 The Shadow (阴影) is the most central and powerful archetype in Jungian theory. It contains everything the individual has repressed, denied, or is unwilling to acknowledge — not just the "bad" things, but also undeveloped potential, denied desires, and suppressed power.

@@ -1,62 +1,59 @@
-# Skill 06: Persona Iteration · 人格敏捷迭代
+# Skill 06: Persona Iteration · 自我认知迭代报告
 
-> **Purpose / 目的**: Generate a cumulative iteration report — how the user's self-understanding has evolved across multiple sessions.
-> **生成累积迭代报告——用户在多次对话中的自我认知如何演变。**
+> **Safety & governance / 安全与治理**: Load [`SAFETY_AND_DATA_GOVERNANCE.md`](../SAFETY_AND_DATA_GOVERNANCE.md) and [`prompts/base.md`](../prompts/base.md) first. Generate a report only when the user explicitly asks; use only user-confirmed records or hypotheses explicitly retained for review.
+
+> **Purpose / 目的**: Generate a cumulative reflection report showing how the user’s self-understanding has changed across conversations.
 >
+> 生成一份累积反思报告，呈现用户对自己的理解如何在多次对话中变化。
+
 > **Trigger / 触发词**: `"report"` / `"迭代报告"` / `"总结"` / `"分析"`
-> **Duration / 时长**: Cumulative (reading the report: 5-10 min)
-> **Prerequisite / 前置条件**: Requires 3+ spirit memory entries (Skill 5)
+> **Prerequisite / 前置条件**: At least three user-confirmed reflection entries, or the user may explicitly request a shorter provisional report.
 
-## Protocol / 操作流程
+## Protocol · 操作流程
 
-### When Triggered: Generate Iteration Report
+### 1. Verify scope · 确认范围
+
+Before generation, state which confirmed entries will be used and ask whether the user wants to include any tentative hypotheses. Do not access data from another user or an unapproved storage location.
+
+### 2. Generate a reviewable report · 生成可审阅报告
 
 ```markdown
-# Persona Iteration Report — [Date]
+# Self-Reflection Iteration Report — [Date]
 
-## 1. Self-Awareness Trajectory / 自我认知轨迹
-> How has the user's self-understanding changed?
+## 1. Materials Used / 使用材料
+- [date / user-confirmed entry / scope]
 
-- [Session 1]: [initial self-description]
-- [Session N]: [current self-description]
-- **Key shift**: [what fundamentally changed]
+## 2. Self-Understanding Trajectory / 自我认知轨迹
+- **User-stated shift**: [what the user says has changed]
+- **Observed pattern**: [only if directly supported]
+- **Unknown or competing explanation**: [what remains uncertain]
 
-## 2. Complex Processing Progress / 情结处理进度
-| Complex | Status | Evidence |
-|---------|--------|----------|
-| [Complex A] | 🟡 In progress / 🟢 Resolved / 🔴 Dormant | [observations] |
-| [Complex B] | ... | ... |
+## 3. Recurring Tensions / 反复出现的张力
+| Tension | Supporting material | Status | Confidence | User confirmation |
+|---|---|---|---|---|
+| [e.g., security vs. autonomy] | [entry/date] | revisiting | low/medium/high | confirmed/pending |
 
-## 3. Archetype Integration / 原型整合状态
-> Which archetypes has the user engaged with? Which remain unvisited?
+## 4. Optional Archetype Metaphors / 可选原型隐喻
+> These are optional lenses, not identity facts.
+- [metaphor] — [why it may be useful / why it may not fit]
 
-- ✅ Persona — [last explored]
-- ✅ Shadow — [last explored]
-- ❌ Anima/Animus — not yet engaged (optional)
-- ✅ Self — integrated at session [N]
+## 5. Questions the User May Choose to Revisit / 用户可选择重访的问题
+1. [optional question]
 
-## 4. Belief Evolution / 信念演变
-| Previous Belief | Current Belief | Confidence |
-|----------------|---------------|------------|
-| "I only matter when I produce" | "I am learning to exist without producing" | 🟡 Medium |
-
-## 5. Next Exploration Directions / 下一步探索方向
-> Based on unfinished signals and developing patterns:
-
-1. [Recommended area to explore] — [why it matters now]
-2. ...
+## 6. User Corrections / 用户校正
+- [space for edit, rejection, or deletion request]
 ```
 
-### Auto-Update Rules / 自动更新规则
+### 3. After generation · 生成后
 
-- The report pulls data from **all past spirit memory entries** (Skill 5)
-- It updates **passively** — only regenerated when the user triggers it
-- If <3 sessions exist, report: "Insufficient data. Continue self-exploration."
+- Invite the user to correct, delete, or reclassify any statement.
+- Do not automatically update a profile or memory from the report.
+- Only save the report after a separate explicit confirmation under Skill 05.
 
-## Pitfalls / 注意事项
+## Pitfalls · 注意事项
 
-- ❌ Do not generate a report if the user has <3 sessions — too early, too noisy
-- ❌ Do not claim "progress" where there is only oscillation
-- ✅ Always highlight unfinished work as valuable, not as a failure
-- ✅ Compare user's own self-report against the profile's findings
-- ✅ The report should feel like a mirror of the mirror — reflective distance aids insight
+- ❌ Do not call a hypothesis a fact, a diagnosis, “progress,” integration, or resolution without the user’s own basis.
+- ❌ Do not use silence, non-response, or a model’s prior inference as evidence.
+- ❌ Do not produce an automatic report after a fixed number of sessions.
+- ✅ Preserve uncertainty and counter-evidence.
+- ✅ Treat oscillation, pauses, and changes of mind as information—not failure.

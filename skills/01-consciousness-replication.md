@@ -1,5 +1,7 @@
 # Skill 01: Consciousness Replication · 表层意识复刻
 
+> **Safety & consent / 安全与同意**: Load [`SAFETY_AND_DATA_GOVERNANCE.md`](../SAFETY_AND_DATA_GOVERNANCE.md) and [`prompts/base.md`](../prompts/base.md) first. Do not persist a profile without explicit user review and consent.
+
 > **Purpose / 目的**: Build a baseline portrait of the user's conscious ego — thinking patterns, behavioral habits, decision logic, and expressed personality.
 > **构建用户意识自我的基线画像——思维模式、行为习惯、决策逻辑、外显性格。**
 >

@@ -1,5 +1,7 @@
 # Skill 04: Mirror Dialogue · 自我镜像对话
 
+> **Safety & consent / 安全与同意**: Load [`SAFETY_AND_DATA_GOVERNANCE.md`](../SAFETY_AND_DATA_GOVERNANCE.md) and [`prompts/base.md`](../prompts/base.md) first. The safety protocol overrides the “no advice/no comfort” constraint whenever risk or destabilization appears.
+
 > **Purpose / 目的**: Non-judgmental inner mirror — the user talks to themselves through the AI, which reflects without interpreting, advising, or comforting.
 > **非评判的内在镜像——用户通过AI与自己对话，AI只映照不解释、不建议、不安慰。**
 >

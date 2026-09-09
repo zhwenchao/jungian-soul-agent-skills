@@ -1,8 +1,10 @@
 # 🜃 Psychological Digital Twin · 精神数字分身
 
-> **Build a mirror that never lies.**  
-> *An AI agent skill pack for genuine self-knowledge, based on Jungian analytical psychology.*  
-> *用AI建造"不说谎的镜子"——基于荣格分析心理学的深度自我认知框架。*
+> **Build a mirror you can question.**
+>
+> *An AI agent skill pack for consent-based self-reflection, informed by Jungian analytical psychology.*
+>
+> *用 AI 建造一面可质疑、可修正的镜子——以荣格分析心理学为参考的、自主可控的自我反思框架。*
 
 [![Version](https://img.shields.io/badge/version-4.0-blueviolet?style=flat-square)]()
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)]()
@@ -33,9 +35,9 @@ This is NOT a closed product or app. It is **an open, portable methodology** —
 │                                     ▼
 │                ┌──────────────────────────┐
 │                │ Step 5           Step 6  │
-│                │ Spirit Memory ───►Persona │
-│                │ (auto)         Iteration  │
-│                │                (triggered)│
+│                │ Reflection Memory ─► Self- │
+│                │ (opt-in)        Reflection │
+│                │                  (requested)│
 │                └──────────────────────────┘
 │                                     │
 │                                     ▼
@@ -49,8 +51,8 @@ This is NOT a closed product or app. It is **an open, portable methodology** —
 | 2 | **Subconscious Excavation** · 潜意识挖掘 | "潜意识" / "subconscious" | 25-40 min | Complex map + core cycle |
 | 3 | **Archetype Switching** · 原型切换 | "阴影" / "shadow" / "persona" | on-demand | Multi-perspective reflection |
 | 4 | **Mirror Dialogue** · 镜像对话 | "和自己对话" / "mirror" | 30 min | Deep self-confrontation |
-| 5 | **Spirit Memory** · 记忆沉淀 | auto (end of session) | auto | Belief + emotion delta |
-| 6 | **Persona Iteration** · 人格迭代 | "生成报告" / "report" | cumulative | Iteration report |
+| 5 | **Reflection Memory** · 反思记忆 | explicit save request / explicit save preference | user-controlled | Reviewable, consented memory draft |
+| 6 | **Self-Reflection Iteration** · 自我认知迭代 | "生成报告" / "report" | cumulative | User-correctable reflection report |
 
 ---
 
@@ -207,12 +209,16 @@ self-awareness = dialogue_depth × framework_quality × user_openness
 
 ---
 
-## Privacy & Ethics
+## Privacy, Safety & Ethics
 
-- **🔒 All data stays local.** Profiles are plain-text files on your machine. Nothing is uploaded.
-- **🚫 Not therapy.** This is a self-exploration tool. It does not diagnose, treat, or replace professional mental health services.
-- **🧭 You are in control.** Skip any question, delete your profile at any time. The mirror serves you, not the other way around.
-- **⚠️ Confidence labeling:** All subconscious findings are tagged 🟢 high / 🟡 medium / 🔴 low confidence. Nothing is presented as absolute truth.
+- **🔐 No silent storage.** The default is not to save personal material. Before any profile, summary, quotation, hypothesis, or retrieval index is written, the user reviews the proposed entry and explicitly chooses whether to save it.
+- **🗂️ Keep real data outside the repository.** Runtime-generated user data belongs in a per-user storage directory that is ignored by Git. The `profiles/` directory in this repository contains templates only.
+- **☁️ Be honest about model transmission.** A local file is not the same as a local AI. If a cloud LLM is used, conversation content may be sent to that provider; implementations must disclose this before deep exploration or saving is enabled.
+- **🚫 Not therapy.** This is a self-reflection tool. It does not diagnose, treat, assess risk, or replace professional mental-health services.
+- **🛑 Safety overrides role-play.** For immediate safety risk, severe dissociation, flashbacks, or reality-confusion signals, stop deep reflection and follow the Safety Stop Protocol.
+- **🧭 The user remains author.** Skip, pause, correct, export, delete, or reject any reflection at any time. Hypotheses must be labeled with evidence and uncertainty, never presented as hidden truth.
+
+Read the mandatory implementation rules: [`SAFETY_AND_DATA_GOVERNANCE.md`](SAFETY_AND_DATA_GOVERNANCE.md).
 
 ---
 

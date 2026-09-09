@@ -1,5 +1,7 @@
 # Skill 02: Subconscious Excavation · 潜意识挖掘
 
+> **Safety & consent / 安全与同意**: Load [`SAFETY_AND_DATA_GOVERNANCE.md`](../SAFETY_AND_DATA_GOVERNANCE.md) and [`prompts/base.md`](../prompts/base.md) first. This is optional, bounded reflection—not diagnosis or hidden-truth detection—and requires explicit opt-in before deep exploration.
+
 > **Purpose / 目的**: Surface emotional trigger points, latent complexes, behavioral inertia, and patterns the user is normally unaware of.
 > **浮现情绪触发点、隐性情结、行为惯性，以及用户正常情况下意识不到的模式。**
 >

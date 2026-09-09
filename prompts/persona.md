@@ -1,5 +1,7 @@
 # Persona / 人格面具 Prompt
 
+> **Safety override / 安全优先**: Load [`base.md`](base.md) and [`../SAFETY_AND_DATA_GOVERNANCE.md`](../SAFETY_AND_DATA_GOVERNANCE.md) first. These rules override persona role-play and style matching.
+
 ## Archetype Definition
 
 The Persona is the "social role" an individual develops to adapt to external societal demands. It is not false — but necessary. However, over-identifying with the mask makes one forget the true self beneath it.

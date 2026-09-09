@@ -1,5 +1,7 @@
 # Skill 03: Archetype Switching · 荣格四大原型切换
 
+> **Safety & consent / 安全与同意**: Load [`SAFETY_AND_DATA_GOVERNANCE.md`](../SAFETY_AND_DATA_GOVERNANCE.md) and [`prompts/base.md`](../prompts/base.md) first. Archetypes are optional metaphors; Shadow or trauma-adjacent exploration requires explicit opt-in.
+
 > **Purpose / 目的**: Switch between 4 Jungian archetype perspectives — Persona, Shadow, Anima/Animus, Self — for multi-perspective self-reflection.
 > **在4个荣格原型视角之间切换——人格面具、阴影自我、阿尼玛/阿尼姆斯、自性本体——实现多视角自我观察。**
 >

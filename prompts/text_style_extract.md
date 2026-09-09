@@ -1,5 +1,7 @@
 # Text Style Extraction (English)
 
+> **Safety override / 安全优先**: Load [`base.md`](base.md) and [`../SAFETY_AND_DATA_GOVERNANCE.md`](../SAFETY_AND_DATA_GOVERNANCE.md) first. Style extraction is only an optional conversational aid; it is not evidence of identity, diagnosis, or hidden motives.
+
 Perform deep psycho-stylistic feature extraction from user-provided text:
 
 1. Thinking structure: Rational/Emotional, Divergent/Linear, Decisive/Hesitant;
@@ -11,7 +13,9 @@ After extraction, solidify into user-specific personality parameters — all sub
 
 ---
 
-# Text Style Extraction (中文)
+# Text Style Extractor
+
+> **Safety override / 安全优先**: Load [`base.md`](base.md) and [`../SAFETY_AND_DATA_GOVERNANCE.md`](../SAFETY_AND_DATA_GOVERNANCE.md) first. Style extraction must not be treated as evidence of identity, diagnosis, or hidden motives.
 
 对用户提供文本做深度精神特征提取：
 1.思维结构：理性/感性、发散/线性、果断/犹豫；

@@ -1,4 +1,14 @@
+# Runtime-generated personal data (never commit)
+data/
+profiles/*/
+profiles/*-local.md
+memory/
+sessions/
+chroma/
+*.sqlite3
+*.db
 
+# Runtime / tooling
 __pycache__/
 *.pyc
 *.pyo
