@@ -43,6 +43,10 @@ class MemoryDraft:
     status: str = "pending"
     created_at: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
     confirmed_at: str | None = None
+    version: int = 1
+
+    def __getitem__(self, key: str) -> Any:
+        return asdict(self)[key]
 
 
 @dataclass(frozen=True)
@@ -179,3 +183,56 @@ class ReflectionRuntime:
                 raise ValueError("Each hypothesis needs a statement.")
             if hypothesis.get("confidence", "").lower() not in allowed:
                 raise ValueError("Each hypothesis confidence must be low, medium, or high.")
+
+    def prepare_profile(self, user_id: str, profile_type: str, *, user_stated_facts: list[str] | None = None, observed_patterns: list[str] | None = None, tentative_hypotheses: list[dict[str, str]] | None = None, unknown_or_counter_evidence: list[str] | None = None) -> MemoryDraft:
+        """Prepare a pending profile draft. This method never writes personal data to disk."""
+        self._validate_user_id(user_id)
+        draft_id = uuid.uuid4().hex
+        draft = MemoryDraft(
+            theme=profile_type,
+            user_stated_facts=user_stated_facts or [],
+            observed_patterns=observed_patterns or [],
+            tentative_hypotheses=tentative_hypotheses or [],
+            unknown_or_counter_evidence=unknown_or_counter_evidence or [],
+        )
+        self.prepare_memory(user_id, draft)
+        return draft
+
+    def confirm_profile(self, user_id: str, draft_id: str) -> MemoryDraft:
+        """Persist a pending profile draft belonging to the requesting user."""
+        return self.confirm_memory(user_id, draft_id)
+
+    def get_profile(self, user_id: str, profile_type: str) -> MemoryDraft | None:
+        """Read the confirmed profile of the given type for this user."""
+        records = self.list_memories(user_id)
+        for record in records:
+            if record.theme == profile_type:
+                return record
+        return None
+
+    def list_profile_versions(self, user_id: str, profile_type: str) -> list[MemoryDraft]:
+        """List all confirmed versions of a profile type, newest first."""
+        records = self.list_memories(user_id)
+        return [r for r in records if r.theme == profile_type]
+
+    def update_profile(self, user_id: str, profile_type: str, overrides: dict[str, Any]) -> MemoryDraft:
+        """Create a new version of a profile by applying overrides to the latest confirmed version."""
+        latest = self.get_profile(user_id, profile_type)
+        if latest is None:
+            raise KeyError(f"No confirmed profile of type '{profile_type}' found for user {user_id}.")
+
+        # Start from the latest confirmed profile and apply overrides
+        new_draft = MemoryDraft(
+            theme=profile_type,
+            user_stated_facts=overrides.get("user_stated_facts", latest.user_stated_facts),
+            observed_patterns=overrides.get("observed_patterns", latest.observed_patterns),
+            tentative_hypotheses=overrides.get("tentative_hypotheses", latest.tentative_hypotheses),
+            unknown_or_counter_evidence=overrides.get("unknown_or_counter_evidence", latest.unknown_or_counter_evidence),
+            retention=latest.retention,
+            version=latest.version + 1,
+        )
+        # Mark as pending so it can be confirmed later
+        new_draft.status = "pending"
+        self.prepare_memory(user_id, new_draft)
+        # Auto-confirm since the user has specified the desired overrides
+        return self.confirm_memory(user_id, new_draft.id)
