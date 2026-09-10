@@ -207,6 +207,18 @@ Secondary Engines ── Existential Philosophy (Camus, Nietzsche)
 self-awareness = dialogue_depth × framework_quality × user_openness
 ```
 
+## Local Runtime (V5 Baseline)
+
+This repository now includes a small local consent-first state layer in [`core/runtime.py`](core/runtime.py). It is intentionally model-agnostic: Hermes, a local LLM, or any hosted LLM adapter may call it, but the runtime itself does not send content anywhere.
+
+- A proposed memory record is a **draft**, not a write.
+- Only an explicit `confirm_memory()` action persists it.
+- Confirmed records are isolated at `data_root/users/<user-id>/memories/`.
+- Users can delete records; iteration reports consume confirmed records only.
+- A conservative safety gate blocks deep exploration and memory when high-risk phrases are detected. It is an interruption mechanism, **not** a clinical assessment.
+
+Read the integration contract: [`docs/v5-runtime-architecture.md`](docs/v5-runtime-architecture.md).
+
 ---
 
 ## Privacy, Safety & Ethics
