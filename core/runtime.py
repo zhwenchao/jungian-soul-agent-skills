@@ -17,15 +17,29 @@ from typing import Any
 
 
 RISK_PATTERNS = (
+    # English
     r"\bkill myself\b",
     r"\bsuicide\b",
     r"\bend my life\b",
     r"\bkill (him|her|them|someone)\b",
-    r"自杀",
-    r"杀了自己",
-    r"结束生命",
-    r"杀人",
-    r"伤害他人",
+    r"\b(hurt|harm) (him|her|them|someone)\b",
+    # Chinese. Every pattern must match BOTH simplified and traditional forms.
+    # A character-class alternation keeps one regex per concept instead of
+    # enumerating the whole phrase twice.
+    r"自杀|自殺",
+    r"结束生命|結束生命",
+    r"结束(?:自己的|我的)?生命|結束(?:自己的|我的)?生命",
+    r"杀了自己|殺了(?:自己|我)",
+    r"杀(?:了|死)(?:他|她|它们|别人|人)|殺(?:了|死)(?:他|她|它們|別人|人)",
+    r"杀人|殺人",
+    r"伤害他人|傷害他人",
+    r"不想活(?:了)?",
+    r"活不下去",
+    r"想死",
+    r"轻生|輕生",
+    r"跳楼|跳樓",
+    r"割腕",
+    r"上吊",
 )
 
 
